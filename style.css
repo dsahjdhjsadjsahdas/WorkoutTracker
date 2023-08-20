@@ -1,0 +1,91 @@
+:root{
+    --color1: #191D88;
+    --color2: #1450A3;
+    --color3: #337CCF;
+    --color4: #FFC436;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding:0;
+    background-color: var(--color1);
+    box-sizing: border-box;
+}
+
+
+.AddExerciseContainer{
+    margin:50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    border-radius: 20px;
+
+}
+
+.AddExerciseContainer input{
+    text-align: center;
+    height: 10vh;
+    border-radius: 15px;
+    border:none;
+    font-size:25px;
+    background: whitesmoke;
+}
+
+.AddExerciseContainer button{
+    margin-top: 15px;
+    height: 10vh;
+    border-radius: 15px;
+    border:none;
+    background: var(--color4);
+    font-size: 25px;
+}
+
+.MainContainer{
+    width: 80vw;
+    height: 30vh;
+    margin:25px auto;
+    background: whitesmoke;
+    border-radius: 15px;
+    box-shadow:0 0 10px 2px black;
+    display: table;
+}
+
+.MainContainer h1{
+    text-align: center;
+    
+}
+
+.MainContainer button{
+    display: block;
+   height: 25px;
+   margin: 15px auto;
+   border:none;
+   background-color: white;
+   width: 80%;
+   border-radius: 15px;
+ 
+
+}
+
+.MainContainer .setinfo{
+    display: flex;
+}
+
+.MainContainer p{
+    width: 100%;
+    text-align: center;
+}
+
+.MainContainer #exerciseweight, #exercisereps{
+    width: 100%;
+    text-align:center;
+    border:none;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    height: 4vh;
+}
+
+
+
+

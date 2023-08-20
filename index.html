@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workout Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body">
+    <div class="AddExerciseContainer">
+      <input
+        type="text"
+        placeholder="Enter Exercise Name"
+        id="exerciseinput"
+        list="exercisedata"
+      />
+      <button onclick="addExercise()" id="addexercise">Add</button>
+    </div>
+
+    <datalist id="exercisedata">
+      <option value="Bench Press"></option>
+      <option value="Squat"></option>
+      <option value="Deadlift"></option>
+      <option value="Overhead Press"></option>
+    </datalist>
+
+    <script src="script.js"></script>
+  </body>
+</html>
